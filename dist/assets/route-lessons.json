@@ -1,0 +1,335 @@
+{
+  "title": "Route decisions",
+  "intro": "Practice four published box-farming runs: two Green lane loops, a Blue–Chinatown loop and a Yellow–Plaza loop. Each is tied to its recorded team side and returns to lane. A verified Green-to-mid rotation is not included. Protect your next wave and stop the run when your lane or team needs you.",
+  "cards": [
+    {
+      "id": "routing_loop_or_rotate",
+      "title": "Know whether the path returns to your lane",
+      "category": "routing",
+      "priority": "first",
+      "explanation": "A loop brings you back to the lane you left; a rotation finishes at a different lane or objective. The four selected recordings are box-farming runs that return to lane. Follow their actual start, stop order and finish instead of attaching an unverified route to mid. Check the team side: the two halves of the map have different rooms and entrances.",
+      "tip": "Collect your wave, check when the next one will need you, and choose the recorded run for that lane and team. If you need to rotate to mid instead, decide that destination from the match and travel when useful; the current box-run catalogue does not establish a sourced farming path for that rotation.",
+      "pitfall": "Do not reverse or mirror a recording to make it fit the other team. A path passing near a camp, Sinner or the Midboss does not tell you to attack it. These selected recordings cover boxes; extra kills would change both the route and its duration.",
+      "mapFocus": [
+        "crate",
+        "tough_crate"
+      ],
+      "sources": [
+        {
+          "label": "Hyperline — Leif: Optimized Box Routes, recorded by oilslick",
+          "url": "https://hyperline.gg/movement/playlist/mvpkeady/"
+        },
+        {
+          "label": "Hyperline — Zappy: Box Routes and Healing Routes",
+          "url": "https://hyperline.gg/movement/playlist/mvklxz8p/"
+        }
+      ]
+    },
+    {
+      "id": "routing_recorded_run_practice",
+      "title": "Practice the recording after a wave",
+      "category": "routing",
+      "priority": "first",
+      "explanation": "A published route gives you a repeatable sequence of turns and box stops. Its reference duration describes the recorded practice run, not a promise that you can finish it between every pair of waves. Enemy pressure, movement mistakes, available loot and the time needed to collect your wave all affect a real match.",
+      "tip": "Learn the route in sections, then time your own run. Before leaving lane, collect the wave and check the next one. Pause the farming run and return as soon as your lane needs you. Read floor notes and use the source recording to learn doors, stairs and drops that overlap on this two-dimensional map.",
+      "pitfall": "Do not add a nearby camp or Sinner kill and still use the box-run reference time. Do not treat a practice duration as an earliest match start or a guaranteed souls-per-minute result. The match clock shows spawn opportunities; your live wave decides when to leave.",
+      "mapFocus": [
+        "crate",
+        "tough_crate"
+      ],
+      "sources": [
+        {
+          "label": "Hyperline — Leif: Optimized Box Routes, recorded by oilslick",
+          "url": "https://hyperline.gg/movement/playlist/mvpkeady/"
+        },
+        {
+          "label": "Hyperline — Zappy: Box Routes and Healing Routes",
+          "url": "https://hyperline.gg/movement/playlist/mvklxz8p/"
+        },
+        {
+          "label": "Deadlock Wiki — Crate: availability and return rules",
+          "url": "https://deadlock.wiki/Crate"
+        }
+      ]
+    },
+    {
+      "id": "routing_wave_opportunity_cost",
+      "title": "Compare the detour with the wave you could collect",
+      "category": "routing",
+      "priority": "first",
+      "explanation": "At 15:00, an ordinary four-Trooper wave is about 520 souls when you collect its full value alone. A three-small-Haunt camp is about 156. If you could safely collect that whole wave, giving it up for only the small camp leaves roughly 364 fewer souls. These examples exclude sharing and comeback modifiers; they compare opportunities, not guaranteed match income.",
+      "tip": "Look at the actual wave and defenders before leaving. Ask whether you can take the planned box stops and return for the next useful wave. If not, shorten the run or take the wave first. Compare extra farm with income you would let disappear. A return wave is not automatically extra income created by the detour.",
+      "pitfall": "A large total is not the same as fast farming. Sharing, denied souls or arriving late changes wave income. A creator's practice duration does not establish your match income: measure your own travel and collection time before comparing souls per minute.",
+      "mapFocus": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "sources": [
+        {
+          "label": "Deadlock Wiki — Trooper: four-unit waves and reward growth",
+          "url": "https://deadlock.wiki/Trooper"
+        },
+        {
+          "label": "Deadlock Wiki — Haunt: current bounty formula",
+          "url": "https://deadlock.wiki/Haunt"
+        },
+        {
+          "label": "Deadlock Wiki — Souls: sharing and comeback modifiers",
+          "url": "https://deadlock.wiki/Souls"
+        }
+      ]
+    },
+    {
+      "id": "routing_buy_and_return",
+      "title": "Finish the purchase, then return to play",
+      "category": "routing",
+      "priority": "normal",
+      "explanation": "A purchase route has a stopping condition: you can afford a useful item from your build. Choose a safe wave or a small amount of nearby farm to close the gap, visit an open shop, then rejoin the lane or team. Lane shops close when their Guardian falls, so the shop you used earlier may no longer be a valid destination.",
+      "tip": "Check the remaining item cost before choosing the route. If a wave already makes the item affordable, buy now instead of adding the planned camp. If your lane shop is closed, check an available central shop or return to base. Prefer the shop that leaves you near your next useful action, and check its surroundings before opening the menu.",
+      "pitfall": "Do not finish an entire box run merely because it is drawn on the map. Delaying an affordable upgrade can leave you weaker for the next fight or clear. A central shop is a shared location, so reaching it is not proof that the area is safe.",
+      "mapFocus": [
+        "shop"
+      ],
+      "sources": [
+        {
+          "label": "Deadlock Wiki — The Curiosity Shop: locations and closures",
+          "url": "https://deadlock.wiki/The_Curiosity_Shop"
+        }
+      ]
+    },
+    {
+      "id": "routing_exit_and_floors",
+      "title": "Choose the exit before entering the farm",
+      "category": "routing",
+      "priority": "first",
+      "explanation": "Nearby map pins can sit on different floors. A straight line between them does not establish a walkable connection. This matters especially around the rooftop Bell Tower and the Sunken Plaza. Tower farming rings a bell that other players can hear, while Plaza fog obscures sight and sound and drains stamina. Neither area should be treated as a quiet, risk-free stop.",
+      "tip": "Before the first hit, identify the actual door, stairs or rope you will use to leave and check the landing or street beyond it. Keep enough movement available to reach that exit. Recheck the minimap between sections. Use the source recording and floor notes to follow a box run; return toward friendly control if its usual exit becomes unsafe.",
+      "pitfall": "Do not follow a projected line through a wall or assume a pin is on your current level. Avoid spending all your movement to enter a pit or rooftop when you do not know how to leave. A route should include an exit decision, not only a list of rewards.",
+      "mapFocus": [
+        "bell_tower",
+        "sunken_plaza"
+      ],
+      "sources": [
+        {
+          "label": "Deadlock Times — map projection, floors and unresolved geometry",
+          "url": "https://www.dltimes.com/articles/city-never-sleeps-spawn-timers"
+        },
+        {
+          "label": "Deadlock Wiki — Sinner's Sacrifice: Tower and Plaza hazards",
+          "url": "https://deadlock.wiki/Sinner%27s_Sacrifice"
+        }
+      ]
+    },
+    {
+      "id": "routing_stop_short",
+      "title": "Take the short version when the match changes",
+      "category": "routing",
+      "priority": "normal",
+      "explanation": "A run succeeds when it leaves you better prepared for the next useful action, even if some boxes remain. Large camps and Sinners may be available from 8:00, but they are separate decisions and are not kills included in these box-run recordings. With four heavy setup hits, a Sinner deals 320 retaliation damage before mitigation or recovery; allow additional health for leaving safely.",
+      "tip": "After each section, check your wave, health, nearby enemies and team. Take one more box stop only if the next useful action can still wait. Skip an empty room and leave the remaining farm when your lane needs you. Taking a camp or Sinner is a new decision with its own time and health cost.",
+      "pitfall": "Do not add a jackpot or camp because the line passes nearby, or finish a long recording while allies need you. The 8:00 spawn does not make a full Tower or Plaza clear appropriate for every build. Skip an unavailable stop instead of waiting beside its marker.",
+      "mapFocus": [
+        "crate",
+        "tough_crate"
+      ],
+      "sources": [
+        {
+          "label": "Deadlock Wiki — Haunt: large-camp availability and difficulty",
+          "url": "https://deadlock.wiki/Haunt"
+        },
+        {
+          "label": "Deadlock Wiki — Sinner's Sacrifice: first spawn and retaliation",
+          "url": "https://deadlock.wiki/Sinner%27s_Sacrifice"
+        }
+      ]
+    },
+    {
+      "id": "routing_independent_timers",
+      "title": "Track the clear, not a single timer for the route",
+      "category": "routing",
+      "priority": "normal",
+      "explanation": "An ordinary camp's return begins when its final linked creature dies. The usual small, medium and large intervals are 1:25, 4:50 and 5:35. A standalone Sinner normally returns after 5:00; mixed sites require every linked machine and Haunt to be cleared. Boxes have separate per-object clocks. A whole route therefore does not refill at one shared time.",
+      "tip": "Record the actual full clear, not your arrival or the first kill. At a Blue hybrid site, finish both medium Haunts and the Sinner before marking the site cleared; nearby boxes are separate. If danger forces you out early, leave and keep the site unrecorded as a full clear. Use that location's in-game timer when a local rule is uncertain.",
+      "pitfall": "A passed first-spawn time only means you should check the location; another player may already have taken it. One respawned box does not prove the nearby camp is back. Some locations override generic tier timers, so do not replace an uncertain local opening with a confident default.",
+      "mapFocus": [
+        "sinner",
+        "medium",
+        "large"
+      ],
+      "sources": [
+        {
+          "label": "Deadlock Wiki — Haunt: full-clear return intervals",
+          "url": "https://deadlock.wiki/Haunt"
+        },
+        {
+          "label": "Deadlock Wiki — Sinner's Sacrifice: mixed-site requirements",
+          "url": "https://deadlock.wiki/Sinner%27s_Sacrifice"
+        },
+        {
+          "label": "Deadlock Wiki — Crate: object return rules",
+          "url": "https://deadlock.wiki/Crate"
+        },
+        {
+          "label": "Deadlock Times — authored local overrides and validation limits",
+          "url": "https://www.dltimes.com/articles/city-never-sleeps-spawn-timers"
+        }
+      ]
+    },
+    {
+      "id": "routing_objective_rendezvous",
+      "title": "Route to the team before committing to the objective",
+      "category": "routing",
+      "priority": "normal",
+      "explanation": "An objective route gets you to a useful meeting point with health, items and teammates ready. It is separate from the decision to start the objective. Midboss is present from match start, so a 10:00 planning reminder is not an unlock. The October 30 reward consists of three crystals that land 7.5 seconds after the kill; securing the area through that reward phase is part of the attempt.",
+      "tip": "Finish a nearby wave or purchase only if there is time, then meet at the intended entrance. Remove optional camps when your team is already gathering. For an Urn or Rift, follow the active in-game site and announcement instead of treating every map marker as an active event. Start the contest together only when the approach and nearby enemies allow it.",
+      "pitfall": "Do not begin Midboss alone because the route ends at the pit, or arrive late because you completed another farm stop. Do not count boss, crystal, delivery or capture rewards as guaranteed farming income. If the team cannot commit safely, collecting a nearby safe wave is a valid new endpoint.",
+      "mapFocus": [
+        "midboss",
+        "urn",
+        "rift"
+      ],
+      "sources": [
+        {
+          "label": "Deadlock Wiki — Midboss: initial availability and pit access",
+          "url": "https://deadlock.wiki/Midboss"
+        },
+        {
+          "label": "Valve — October 30, 2026 gameplay update",
+          "url": "https://steamcommunity.com/app/1422450/allnews/?l=english"
+        },
+        {
+          "label": "Deadlock Wiki — Soul Urn: active delivery and spawn timing",
+          "url": "https://deadlock.wiki/Soul_Urn"
+        },
+        {
+          "label": "Deadlock Wiki — Unstable Rift: announcement and candidate side",
+          "url": "https://deadlock.wiki/Unstable_Rift"
+        }
+      ]
+    },
+    {
+      "id": "routing_when_behind",
+      "title": "When behind, choose a route you can leave alive",
+      "category": "routing",
+      "priority": "normal",
+      "explanation": "When you are weak or hurt, the useful destination may be recovery and a protected wave rather than the largest camp. Haunted souls from farming can be lost on death before they secure. The October 30 patch made Haunts tougher as well as more rewarding, so a larger listed bounty does not automatically fix a slow clear. Your side of the map is only as safe as the control your team currently has.",
+      "tip": "Start from visible friendly support or surviving defenses. Recover first, buy an affordable upgrade, then take the smallest nearby available stop that fits your next wave. Keep Sinners and exposed vaults out of a low-health route. If allies help clear a difficult camp, accept that Haunt rewards are shared among eligible allied contributors; faster and safer can still be the better team choice.",
+      "pitfall": "Do not cross into missing enemies for a full-stock route estimate or assume a comeback modifier guarantees the displayed income. If your exit closes, leave the farm unfinished. A short recovery route that lets you participate again can be more useful than a large haul followed by a death.",
+      "mapFocus": [
+        "healing_snack",
+        "shop"
+      ],
+      "sources": [
+        {
+          "label": "Deadlock Wiki — Souls: haunted souls and comeback modifiers",
+          "url": "https://deadlock.wiki/Souls"
+        },
+        {
+          "label": "Deadlock Wiki — Haunt: bounty sharing",
+          "url": "https://deadlock.wiki/Haunt"
+        },
+        {
+          "label": "Valve — October 30, 2026 Haunt and haunted-soul changes",
+          "url": "https://steamcommunity.com/app/1422450/allnews/?l=english"
+        }
+      ]
+    }
+  ],
+  "scenarioChecklist": [
+    {
+      "trigger": "A safe wave is arriving near a structure you need to defend.",
+      "action": "Collect it before the detour. Return to a lane loop instead of starting a long rotation."
+    },
+    {
+      "trigger": "You already have enough for the item you planned to buy.",
+      "action": "Go to an open, safe shop now. Treat the remaining farm stops as optional."
+    },
+    {
+      "trigger": "Your team is already assembling for an objective.",
+      "action": "Remove optional camps and travel to the agreed meeting point. Reassess together before starting."
+    },
+    {
+      "trigger": "The next camp or box stop is empty.",
+      "action": "Check the local timer, then move to an available wave or your intended destination. Do not wait just to complete the route."
+    },
+    {
+      "trigger": "Enemies approach before a mixed camp is fully cleared.",
+      "action": "Leave through your planned exit. Do not mark the entire site cleared if a linked creature or machine remains."
+    },
+    {
+      "trigger": "You have health for one more stop but not the full sweep.",
+      "action": "Choose the short version and finish near recovery or teammates. Leave enough health and movement to escape."
+    },
+    {
+      "trigger": "The Guardian is gone and its lane shop has closed.",
+      "action": "Choose an available central shop or base, and update where the route should finish."
+    },
+    {
+      "trigger": "The selected pin appears above or below your position.",
+      "action": "Find the actual stairs, rope or entrance and check the other end. Do not treat the map line as a walkable passage."
+    },
+    {
+      "trigger": "Several nearby opponents disappear or your exit becomes threatened.",
+      "action": "Stop adding farm and take the shortest useful path toward friendly control. Reassess before another pit or rooftop commitment."
+    },
+    {
+      "trigger": "You are behind and the next camp takes too long or too much health.",
+      "action": "Choose recovery, a safe wave or a smaller available camp. Buy a useful upgrade before repeating the slow clear."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Hyperline — Leif: Optimized Box Routes, recorded by oilslick",
+      "url": "https://hyperline.gg/movement/playlist/mvpkeady/"
+    },
+    {
+      "label": "Hyperline — Zappy: Box Routes and Healing Routes",
+      "url": "https://hyperline.gg/movement/playlist/mvklxz8p/"
+    },
+    {
+      "label": "Valve — October 30, 2026 gameplay update",
+      "url": "https://steamcommunity.com/app/1422450/allnews/?l=english"
+    },
+    {
+      "label": "Deadlock Wiki — Haunt",
+      "url": "https://deadlock.wiki/Haunt"
+    },
+    {
+      "label": "Deadlock Wiki — Crate",
+      "url": "https://deadlock.wiki/Crate"
+    },
+    {
+      "label": "Deadlock Wiki — Sinner's Sacrifice",
+      "url": "https://deadlock.wiki/Sinner%27s_Sacrifice"
+    },
+    {
+      "label": "Deadlock Wiki — Trooper",
+      "url": "https://deadlock.wiki/Trooper"
+    },
+    {
+      "label": "Deadlock Wiki — Souls",
+      "url": "https://deadlock.wiki/Souls"
+    },
+    {
+      "label": "Deadlock Wiki — The Curiosity Shop",
+      "url": "https://deadlock.wiki/The_Curiosity_Shop"
+    },
+    {
+      "label": "Deadlock Wiki — Midboss",
+      "url": "https://deadlock.wiki/Midboss"
+    },
+    {
+      "label": "Deadlock Wiki — Soul Urn",
+      "url": "https://deadlock.wiki/Soul_Urn"
+    },
+    {
+      "label": "Deadlock Wiki — Unstable Rift",
+      "url": "https://deadlock.wiki/Unstable_Rift"
+    },
+    {
+      "label": "Deadlock Times — map resources, authored timing and limitations",
+      "url": "https://www.dltimes.com/articles/city-never-sleeps-spawn-timers"
+    }
+  ]
+}

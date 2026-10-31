@@ -1,0 +1,95 @@
+{
+  "coordinateTransform": "mapX = 500 + worldX / 21504 * 1000; mapY = 500 - worldY / 21504 * 1000",
+  "routes": [
+    {
+      "profileId": "leif-hk-green-long",
+      "side": "b",
+      "sourceTitle": "HK Right Long",
+      "sourceUrl": "https://hyperline.gg/movement/route/f6375854b94c",
+      "playlistUrl": "https://hyperline.gg/movement/playlist/mvpkeady",
+      "sourceDate": "2026-10-26",
+      "gameBuild": "6819",
+      "referenceSeconds": 54.453125,
+      "revision": "f6375854b94cb0ba93e38e2b440295b85a8c6b0c617bb9233d03c805523002e5",
+      "worldTraceSha256": "4739dc7affc2d3c8ffdb771e30caa559bc49595eb4b7c86d92c073c58ab3cfba",
+      "tracePointCount": 97,
+      "annotatedTraceIndices": [
+        0,
+        10,
+        25,
+        45,
+        55,
+        75,
+        90,
+        96
+      ]
+    },
+    {
+      "profileId": "leif-am-green-short",
+      "side": "a",
+      "sourceTitle": "Archmother Left Short",
+      "sourceUrl": "https://hyperline.gg/movement/route/e15e9825c4e1",
+      "playlistUrl": "https://hyperline.gg/movement/playlist/mvpkeady",
+      "sourceDate": "2026-10-26",
+      "gameBuild": "6819",
+      "referenceSeconds": 25.625,
+      "revision": "e15e9825c4e1798ac7a8fe4a3d13775920240c49a0fff99b98ae4c0ab44895f1",
+      "worldTraceSha256": "7d0176b6f5cdce3b2e2336e5bac5f04422ee7ffdc643ee881120418502a469cd",
+      "tracePointCount": 50,
+      "annotatedTraceIndices": [
+        0,
+        15,
+        25,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "profileId": "zappy-hk-blue-chinatown",
+      "side": "b",
+      "sourceTitle": "30s Chinatown Blue Boxes HK",
+      "sourceUrl": "https://hyperline.gg/movement/route/d8cd6295c0fd",
+      "playlistUrl": "https://hyperline.gg/movement/playlist/mvklxz8p",
+      "sourceDate": "2026-10-23",
+      "gameBuild": "6819",
+      "referenceSeconds": 31.09375,
+      "revision": "d8cd6295c0fdc78bcd3fc51dd4f1128cc39ab52b248defc9617b790c033db96d",
+      "worldTraceSha256": "a3b70dc7fb1a05814abeb4905fd7beb8fd64bde4ba590dd8074d356a46482606",
+      "tracePointCount": 47,
+      "annotatedTraceIndices": [
+        0,
+        5,
+        15,
+        20,
+        30,
+        40,
+        46
+      ]
+    },
+    {
+      "profileId": "zappy-am-yellow-plaza",
+      "side": "a",
+      "sourceTitle": "35s Sunken Plaza Box Route Yellow AM",
+      "sourceUrl": "https://hyperline.gg/movement/route/b6bb245651ed",
+      "playlistUrl": "https://hyperline.gg/movement/playlist/mvklxz8p",
+      "sourceDate": "2026-10-23",
+      "gameBuild": "6819",
+      "referenceSeconds": 34.890625,
+      "revision": "b6bb245651ede568750be90432c2412676b7afcfc0c08dbecd6473e30995d8bc",
+      "worldTraceSha256": "c395d0dc98fd14104a5676e7210856a657e1a0065e5f5ffe40fc42b80de3470a",
+      "tracePointCount": 51,
+      "annotatedTraceIndices": [
+        0,
+        5,
+        15,
+        25,
+        35,
+        45,
+        50
+      ]
+    }
+  ],
+  "sourceDateTimezone": "America/Los_Angeles",
+  "hashSerialization": "SHA-256 of UTF-8 json.dumps(original_trace, sort_keys=True, separators=(',', ':')), retaining original x, y and ticks arrays."
+}

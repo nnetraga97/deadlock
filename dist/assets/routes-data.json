@@ -1,0 +1,1717 @@
+{
+  "version": 2,
+  "defaultProfile": "leif-hk-green-long",
+  "notes": {
+    "connections": "Lines reproduce four published Hyperline run traces in their original order. Numbered sections are guide annotations. The map is a 2D projection: doors, jumps and floors require the source reference. These are lane-return box runs, not invented camp tours or a verified Green-to-mid farming rotation.",
+    "math": "The source traces do not include collected loot, pickup counts or floor heights. Route totals and souls-per-minute estimates are therefore not reported. Per-box estimates use the current shared clock; actual regular-box drops are random. Practice-run durations are distinct from match-start checks and are not beginner completion guarantees.",
+    "scope": "Four published box-farming runs. Camp kills and Sinner jackpots are not added to their paths. A complete sourced Green-to-mid camp/Sinner rotation could not be verified."
+  },
+  "sources": [
+    {
+      "label": "Leif routes · oilslick recordings · source paths",
+      "url": "https://hyperline.gg/movement/playlist/mvpkeady"
+    },
+    {
+      "label": "Zappy · Box Routes and Healing Routes · source paths",
+      "url": "https://hyperline.gg/movement/playlist/mvklxz8p"
+    },
+    {
+      "label": "Deadlock Wiki · Crate timing and rewards",
+      "url": "https://deadlock.wiki/Crate"
+    },
+    {
+      "label": "AndrewChicken route adaptation · vault timing observation",
+      "url": "https://guides-factory.com/guides/deadlock-farming-guide"
+    },
+    {
+      "label": "Valve · October 30 gameplay update",
+      "url": "https://steamcommunity.com/games/1422450/announcements/detail/680765564125186046"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "leif-hk-green-long",
+      "shortTitle": "Green · full loop",
+      "title": "Green: full return loop",
+      "shape": "return",
+      "purpose": "After a pushed Green wave, sweep the back-lane boxes and return to Green.",
+      "startSeconds": 180,
+      "recommendedSeconds": 180,
+      "startLabel": "3:00+ · after a pushed wave",
+      "windowLabel": "From 3:00, after securing and pushing your wave. Prefer a covered lane or a longer gap; this is not a guaranteed one-wave detour.",
+      "timingBasis": "source-route",
+      "difficulty": "Published box run",
+      "risk": "Enemy pressure, missing loot and floor changes can make a practiced run unsuitable for the current wave gap.",
+      "timeBudget": "54.45 s in the source practice run. This is an extended circuit: use it when lane coverage allows it, and allow more time while learning the movement.",
+      "summary": "The published HK Right Long recording follows a broad loop through the inner block, back street and chapel side before returning to Green.",
+      "why": "Use the wave to create the farming window. The published route supplies the path; live lane pressure determines whether to complete it.",
+      "preflight": [
+        "Secure and push the available wave before leaving.",
+        "Check the exit, missing enemies and whether your partner can hold the lane.",
+        "Learn the source route in Explore NYC before relying on its practice timing."
+      ],
+      "abort": [
+        "The next wave reaches an unsafe position or your lane partner needs help.",
+        "The boxes are already cleared, the route costs too much health, or an enemy blocks the exit."
+      ],
+      "exitRule": "Finish on Green at the recorded endpoint. Reassess the wave before starting any other route.",
+      "nextOptions": [],
+      "rewardBasis": "unverified-inventory",
+      "evidence": {
+        "author": "Leif route · oilslick recording",
+        "title": "HK Right Long",
+        "url": "https://hyperline.gg/movement/route/f6375854b94c",
+        "playlistUrl": "https://hyperline.gg/movement/playlist/mvpkeady",
+        "sourceDate": "2026-10-26",
+        "gameBuild": "6819",
+        "referenceSeconds": 54.453125,
+        "referenceNote": "Recorded practice result; it does not establish your match clear time or include a measured loot total. The source lists no items, a 100 stamina budget and maximum level 36; these are practice settings.",
+        "routeNumber": "736",
+        "revision": "f6375854b94cb0ba93e38e2b440295b85a8c6b0c617bb9233d03c805523002e5",
+        "tracePointCount": 97,
+        "annotations": "Numbered sections label the creator-recorded path for this guide. The source only names Start and Finish; it does not list pickups, intermediate names or floor heights.",
+        "sourceTimezone": "America/Los_Angeles",
+        "publishedAtUnixMillis": "1793041415904"
+      },
+      "variants": {
+        "b": {
+          "title": "Hidden King · Green: full return loop",
+          "description": "Source: HK Right Long · Leif route · oilslick recording. The line follows the published trace; it has not been mirrored or extended.",
+          "entryLane": "Green",
+          "endLane": "Green",
+          "trace": [
+            [
+              831.8452380952381,
+              578.2645089285714
+            ],
+            [
+              835.3794642857142,
+              601.7485119047619
+            ],
+            [
+              828.1715029761905,
+              614.350818452381
+            ],
+            [
+              819.0104166666666,
+              621.9308035714286
+            ],
+            [
+              778.1343005952381,
+              617.0014880952381
+            ],
+            [
+              771.3448660714286,
+              613.7462797619048
+            ],
+            [
+              759.0680803571429,
+              603.7946428571429
+            ],
+            [
+              737.397693452381,
+              597.8422619047619
+            ],
+            [
+              729.2596726190476,
+              597.1912202380952
+            ],
+            [
+              716.7503720238095,
+              605.2827380952381
+            ],
+            [
+              703.3575148809524,
+              607.0498511904761
+            ],
+            [
+              700.5673363095239,
+              609.2354910714286
+            ],
+            [
+              699.4512648809524,
+              613.6532738095239
+            ],
+            [
+              706.4732142857142,
+              626.3485863095239
+            ],
+            [
+              707.6357886904761,
+              636.3002232142857
+            ],
+            [
+              708.100818452381,
+              634.4401041666666
+            ],
+            [
+              706.938244047619,
+              626.9066220238095
+            ],
+            [
+              709.5424107142857,
+              614.3973214285714
+            ],
+            [
+              709.7749255952381,
+              615.234375
+            ],
+            [
+              707.914806547619,
+              611.1421130952381
+            ],
+            [
+              693.6848958333333,
+              671.4099702380952
+            ],
+            [
+              682.5706845238095,
+              711.7280505952381
+            ],
+            [
+              681.0825892857142,
+              732.328869047619
+            ],
+            [
+              684.477306547619,
+              756.0918898809523
+            ],
+            [
+              683.9657738095239,
+              767.6246279761905
+            ],
+            [
+              682.710193452381,
+              769.3452380952381
+            ],
+            [
+              674.897693452381,
+              748.1863839285714
+            ],
+            [
+              661.9698660714286,
+              727.1670386904761
+            ],
+            [
+              660.5282738095239,
+              726.469494047619
+            ],
+            [
+              665.5970982142857,
+              726.3299851190476
+            ],
+            [
+              676.1532738095239,
+              722.3307291666666
+            ],
+            [
+              684.1517857142857,
+              717.0293898809524
+            ],
+            [
+              685.0353422619048,
+              714.3322172619048
+            ],
+            [
+              684.3377976190476,
+              720.3776041666666
+            ],
+            [
+              682.710193452381,
+              723.0747767857142
+            ],
+            [
+              694.8939732142857,
+              736.2816220238095
+            ],
+            [
+              712.0535714285714,
+              735.2120535714286
+            ],
+            [
+              719.1220238095239,
+              736.235119047619
+            ],
+            [
+              737.7232142857142,
+              749.0699404761905
+            ],
+            [
+              753.813244047619,
+              766.5550595238095
+            ],
+            [
+              757.9985119047619,
+              774.0420386904761
+            ],
+            [
+              734.6540178571429,
+              769.9032738095239
+            ],
+            [
+              734.375,
+              768.8337053571429
+            ],
+            [
+              736.9326636904761,
+              766.6015625
+            ],
+            [
+              734.5145089285714,
+              768.1826636904761
+            ],
+            [
+              733.6309523809524,
+              771.3448660714286
+            ],
+            [
+              727.632068452381,
+              775.3441220238095
+            ],
+            [
+              727.0275297619048,
+              777.6692708333333
+            ],
+            [
+              728.515625,
+              782.5520833333333
+            ],
+            [
+              738.0022321428571,
+              791.7131696428571
+            ],
+            [
+              756.5104166666666,
+              792.5502232142858
+            ],
+            [
+              771.577380952381,
+              791.2016369047619
+            ],
+            [
+              780.0409226190476,
+              788.7834821428571
+            ],
+            [
+              790.2715773809523,
+              789.7135416666666
+            ],
+            [
+              801.3392857142858,
+              787.3418898809523
+            ],
+            [
+              808.9657738095239,
+              781.4360119047619
+            ],
+            [
+              816.7317708333333,
+              768.7872023809523
+            ],
+            [
+              818.359375,
+              760.5561755952381
+            ],
+            [
+              817.6153273809523,
+              749.6744791666666
+            ],
+            [
+              821.6610863095239,
+              728.0970982142857
+            ],
+            [
+              824.311755952381,
+              725.3534226190476
+            ],
+            [
+              832.3102678571429,
+              725.8184523809524
+            ],
+            [
+              835.8909970238095,
+              720.6566220238095
+            ],
+            [
+              836.0770089285713,
+              717.1688988095239
+            ],
+            [
+              832.4497767857142,
+              708.100818452381
+            ],
+            [
+              832.4032738095239,
+              693.2198660714286
+            ],
+            [
+              833.5193452380952,
+              687.9185267857142
+            ],
+            [
+              836.4490327380952,
+              683.6402529761905
+            ],
+            [
+              846.9122023809523,
+              676.9438244047619
+            ],
+            [
+              844.3545386904761,
+              677.7808779761905
+            ],
+            [
+              843.0059523809523,
+              678.803943452381
+            ],
+            [
+              843.3779761904761,
+              679.780505952381
+            ],
+            [
+              846.9122023809523,
+              679.2224702380952
+            ],
+            [
+              846.9122023809523,
+              677.4088541666666
+            ],
+            [
+              854.8177083333333,
+              673.735119047619
+            ],
+            [
+              865.8389136904761,
+              670.9449404761905
+            ],
+            [
+              893.5081845238095,
+              675.3162202380952
+            ],
+            [
+              915.1785714285713,
+              676.4322916666666
+            ],
+            [
+              913.2719494047619,
+              667.5967261904761
+            ],
+            [
+              914.155505952381,
+              645.9263392857142
+            ],
+            [
+              914.6205357142857,
+              646.6238839285714
+            ],
+            [
+              912.6674107142857,
+              642.2991071428571
+            ],
+            [
+              908.6681547619048,
+              639.8809523809524
+            ],
+            [
+              886.0212053571429,
+              637.9278273809524
+            ],
+            [
+              881.1848958333333,
+              635.4166666666666
+            ],
+            [
+              872.9073660714286,
+              627.4646577380952
+            ],
+            [
+              860.9095982142857,
+              625.3255208333334
+            ],
+            [
+              874.0699404761904,
+              623.8839285714286
+            ],
+            [
+              878.2552083333333,
+              621.000744047619
+            ],
+            [
+              879.2782738095239,
+              618.5360863095239
+            ],
+            [
+              878.7667410714286,
+              601.655505952381
+            ],
+            [
+              877.4646577380952,
+              596.772693452381
+            ],
+            [
+              875.2325148809523,
+              595.5171130952381
+            ],
+            [
+              868.6290922619048,
+              596.1681547619048
+            ],
+            [
+              863.6067708333333,
+              595.0985863095239
+            ],
+            [
+              866.9084821428571,
+              590.6808035714286
+            ],
+            [
+              869.5126488095239,
+              575.4743303571429
+            ]
+          ],
+          "stops": [
+            {
+              "id": "section-1",
+              "label": "Green: secure the wave first",
+              "x": 831.8452380952381,
+              "y": 578.2645089285714,
+              "traceIndex": 0,
+              "kind": "wave",
+              "action": "Collect the available wave, then begin at the recorded Green-lane start. Check who will cover the lane.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-2",
+              "label": "Inner-block box pocket",
+              "x": 703.3575148809524,
+              "y": 607.0498511904761,
+              "traceIndex": 10,
+              "kind": "loot",
+              "action": "Follow the recorded inward bend and collect the boxes along this first pocket.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-3",
+              "label": "Southern pocket",
+              "x": 682.710193452381,
+              "y": 769.3452380952381,
+              "traceIndex": 25,
+              "kind": "loot",
+              "action": "Continue down the same recorded line into its southern pocket. Keep checking Green while you collect.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-4",
+              "label": "Back-lane pocket",
+              "x": 733.6309523809524,
+              "y": 771.3448660714286,
+              "traceIndex": 45,
+              "kind": "loot",
+              "action": "Follow the small turn around the back-lane pocket; do not cut straight across its walls.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-5",
+              "label": "Sweep the back street",
+              "x": 808.9657738095239,
+              "y": 781.4360119047619,
+              "traceIndex": 55,
+              "kind": "loot",
+              "action": "Sweep along the back street on the recorded path, taking available breakables as you travel.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-6",
+              "label": "Outer Green block",
+              "x": 865.8389136904761,
+              "y": 670.9449404761905,
+              "traceIndex": 75,
+              "kind": "loot",
+              "action": "Follow the outer bend back toward Green. Continue only while the lane still has cover.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-7",
+              "label": "Chapel-side pocket",
+              "x": 878.7667410714286,
+              "y": 601.655505952381,
+              "traceIndex": 90,
+              "kind": "loot",
+              "action": "Finish the recorded chapel-side detour and collect its available boxes.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-8",
+              "label": "Return to Green",
+              "x": 869.5126488095239,
+              "y": 575.4743303571429,
+              "traceIndex": 96,
+              "kind": "return",
+              "action": "Rejoin Green at the recording’s finish and take the next available wave. Do not count a wave that is not there.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Resume lane work. Repeat only after the loot has returned and another safe wave gap opens.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leif-am-green-short",
+      "shortTitle": "Green · short loop",
+      "title": "Green: short return loop",
+      "shape": "return",
+      "purpose": "Take a short box circuit after a Green wave and return to that lane.",
+      "startSeconds": 180,
+      "recommendedSeconds": 180,
+      "startLabel": "3:00+ · after a pushed wave",
+      "windowLabel": "From 3:00, once the nearby boxes exist and your wave is secure. Use the short loop when an extended circuit would leave your partner alone too long.",
+      "timingBasis": "source-route",
+      "difficulty": "Published box run",
+      "risk": "Enemy pressure, missing loot and floor changes can make a practiced run unsuitable for the current wave gap.",
+      "timeBudget": "25.63 s in the source practice run. Practice the turns first; enemy pressure, looting and your movement can take longer.",
+      "summary": "The published Archmother Left Short run travels inward from Green, around two compact pockets, then back to the lane.",
+      "why": "Use the wave to create the farming window. The published route supplies the path; live lane pressure determines whether to complete it.",
+      "preflight": [
+        "Secure and push the available wave before leaving.",
+        "Check the exit, missing enemies and whether your partner can hold the lane.",
+        "Learn the source route in Explore NYC before relying on its practice timing."
+      ],
+      "abort": [
+        "The next wave reaches an unsafe position or your lane partner needs help.",
+        "The boxes are already cleared, the route costs too much health, or an enemy blocks the exit."
+      ],
+      "exitRule": "Finish on Green at the recorded endpoint. Reassess the wave before starting any other route.",
+      "nextOptions": [],
+      "rewardBasis": "unverified-inventory",
+      "evidence": {
+        "author": "Leif route · oilslick recording",
+        "title": "Archmother Left Short",
+        "url": "https://hyperline.gg/movement/route/e15e9825c4e1",
+        "playlistUrl": "https://hyperline.gg/movement/playlist/mvpkeady",
+        "sourceDate": "2026-10-26",
+        "gameBuild": "6819",
+        "referenceSeconds": 25.625,
+        "referenceNote": "Recorded practice result; it does not establish your match clear time or include a measured loot total. The source lists no items, a 100 stamina budget and maximum level 36; these are practice settings.",
+        "routeNumber": "739",
+        "revision": "e15e9825c4e1798ac7a8fe4a3d13775920240c49a0fff99b98ae4c0ab44895f1",
+        "tracePointCount": 50,
+        "annotations": "Numbered sections label the creator-recorded path for this guide. The source only names Start and Finish; it does not list pickups, intermediate names or floor heights.",
+        "sourceTimezone": "America/Los_Angeles",
+        "publishedAtUnixMillis": "1793041431577"
+      },
+      "variants": {
+        "a": {
+          "title": "Archmother · Green: short return loop",
+          "description": "Source: Archmother Left Short · Leif route · oilslick recording. The line follows the published trace; it has not been mirrored or extended.",
+          "entryLane": "Green",
+          "endLane": "Green",
+          "trace": [
+            [
+              881.2779017857142,
+              416.6666666666667
+            ],
+            [
+              882.2544642857142,
+              395.1822916666667
+            ],
+            [
+              882.1149553571429,
+              392.06659226190476
+            ],
+            [
+              880.859375,
+              390.625
+            ],
+            [
+              872.5818452380952,
+              384.5331101190476
+            ],
+            [
+              863.5602678571429,
+              382.34747023809524
+            ],
+            [
+              846.4471726190476,
+              366.72247023809524
+            ],
+            [
+              834.0308779761905,
+              365.4203869047619
+            ],
+            [
+              830.9151785714286,
+              365.69940476190476
+            ],
+            [
+              818.8709077380952,
+              370.62872023809524
+            ],
+            [
+              805.2455357142858,
+              380.1618303571429
+            ],
+            [
+              790.3645833333333,
+              386.25372023809524
+            ],
+            [
+              781.0639880952381,
+              389.0438988095238
+            ],
+            [
+              762.8813244047619,
+              389.6949404761905
+            ],
+            [
+              763.578869047619,
+              391.13653273809524
+            ],
+            [
+              757.1149553571429,
+              396.99590773809524
+            ],
+            [
+              746.8843005952381,
+              400.90215773809524
+            ],
+            [
+              745.1636904761905,
+              402.66927083333337
+            ],
+            [
+              744.9776785714286,
+              411.7373511904762
+            ],
+            [
+              741.4434523809524,
+              419.78236607142856
+            ],
+            [
+              740.8389136904761,
+              424.0606398809524
+            ],
+            [
+              743.7686011904761,
+              427.08333333333337
+            ],
+            [
+              750.8370535714286,
+              425.78125
+            ],
+            [
+              752.3251488095239,
+              426.9438244047619
+            ],
+            [
+              749.4884672619048,
+              429.03645833333337
+            ],
+            [
+              746.8377976190476,
+              425.68824404761904
+            ],
+            [
+              741.7689732142857,
+              423.7816220238095
+            ],
+            [
+              738.5137648809524,
+              424.15364583333337
+            ],
+            [
+              736.5606398809524,
+              425.8277529761905
+            ],
+            [
+              738.6997767857142,
+              423.1305803571429
+            ],
+            [
+              744.5591517857142,
+              422.2470238095238
+            ],
+            [
+              758.696056547619,
+              412.8534226190476
+            ],
+            [
+              765.0669642857142,
+              411.9233630952381
+            ],
+            [
+              770.9728422619048,
+              413.6904761904762
+            ],
+            [
+              774.321056547619,
+              417.3642113095238
+            ],
+            [
+              775.9951636904761,
+              423.2700892857143
+            ],
+            [
+              779.1573660714286,
+              454.8456101190476
+            ],
+            [
+              779.296875,
+              449.8697916666667
+            ],
+            [
+              780.6919642857142,
+              447.73065476190476
+            ],
+            [
+              792.4572172619048,
+              439.31361607142856
+            ],
+            [
+              799.3396577380952,
+              436.66294642857144
+            ],
+            [
+              787.6209077380952,
+              467.4479166666667
+            ],
+            [
+              788.0394345238095,
+              470.3776041666667
+            ],
+            [
+              790.0855654761905,
+              468.5639880952381
+            ],
+            [
+              792.5037202380952,
+              460.2399553571429
+            ],
+            [
+              797.0145089285713,
+              453.3110119047619
+            ],
+            [
+              816.1737351190476,
+              435.68638392857144
+            ],
+            [
+              828.218005952381,
+              426.10677083333337
+            ],
+            [
+              833.2868303571429,
+              424.71168154761904
+            ],
+            [
+              840.727306547619,
+              424.6186755952381
+            ]
+          ],
+          "stops": [
+            {
+              "id": "section-1",
+              "label": "Green: secure the wave first",
+              "x": 881.2779017857142,
+              "y": 416.6666666666667,
+              "traceIndex": 0,
+              "kind": "wave",
+              "action": "Secure the available Green wave, then start at this recorded lane position.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-2",
+              "label": "First inward box pocket",
+              "x": 757.1149553571429,
+              "y": 396.99590773809524,
+              "traceIndex": 15,
+              "kind": "loot",
+              "action": "Follow the broad inward curve into the first pocket and collect the available breakables.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-3",
+              "label": "Inner turn",
+              "x": 746.8377976190476,
+              "y": 425.68824404761904,
+              "traceIndex": 25,
+              "kind": "loot",
+              "action": "Trace the small inner turn instead of cutting directly to the next numbered point.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-4",
+              "label": "Club-side approach",
+              "x": 799.3396577380952,
+              "y": 436.66294642857144,
+              "traceIndex": 40,
+              "kind": "loot",
+              "action": "Follow the recorded line along the club side. The overhead map does not show its floor changes.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-5",
+              "label": "Last box pocket",
+              "x": 797.0145089285713,
+              "y": 453.3110119047619,
+              "traceIndex": 45,
+              "kind": "loot",
+              "action": "Complete the last narrow detour for boxes, then follow the line out.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-6",
+              "label": "Return to Green",
+              "x": 840.727306547619,
+              "y": 424.6186755952381,
+              "traceIndex": 49,
+              "kind": "return",
+              "action": "Return to Green at the source finish. Check the incoming wave before choosing any further farm.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Resume lane work. Repeat only after the loot has returned and another safe wave gap opens.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zappy-hk-blue-chinatown",
+      "shortTitle": "Mid · Chinatown loop",
+      "title": "Mid: Chinatown box circuit",
+      "shape": "return",
+      "purpose": "Use a pushed mid wave to farm the Chinatown-side boxes and return to Blue.",
+      "startSeconds": 180,
+      "recommendedSeconds": 180,
+      "startLabel": "3:00+ · after a pushed wave",
+      "windowLabel": "From 3:00 after a pushed Blue wave. This starts and ends in mid; it is not a Green-to-mid rotation.",
+      "timingBasis": "source-route",
+      "difficulty": "Published box run",
+      "risk": "Enemy pressure, missing loot and floor changes can make a practiced run unsuitable for the current wave gap.",
+      "timeBudget": "31.09 s in the source practice run. Treat this as a practiced movement reference, not a promise to finish before the next wave.",
+      "summary": "Zappy’s Chinatown Blue box run leaves the Hidden King side of mid, loops through the southern block, and returns to Blue.",
+      "why": "Use the wave to create the farming window. The published route supplies the path; live lane pressure determines whether to complete it.",
+      "preflight": [
+        "Secure and push the available wave before leaving.",
+        "Check the exit, missing enemies and whether your partner can hold the lane.",
+        "Learn the source route in Explore NYC before relying on its practice timing."
+      ],
+      "abort": [
+        "The next wave reaches an unsafe position or your lane partner needs help.",
+        "The boxes are already cleared, the route costs too much health, or an enemy blocks the exit."
+      ],
+      "exitRule": "Finish on Blue / mid at the recorded endpoint. Reassess the wave before starting any other route.",
+      "nextOptions": [],
+      "rewardBasis": "unverified-inventory",
+      "evidence": {
+        "author": "Zappy",
+        "title": "30s Chinatown Blue Boxes HK",
+        "url": "https://hyperline.gg/movement/route/d8cd6295c0fd",
+        "playlistUrl": "https://hyperline.gg/movement/playlist/mvklxz8p",
+        "sourceDate": "2026-10-23",
+        "gameBuild": "6819",
+        "referenceSeconds": 31.09375,
+        "referenceNote": "Recorded practice result; it does not establish your match clear time or include a measured loot total. The public record does not list the practice restrictions.",
+        "routeNumber": "610",
+        "revision": "d8cd6295c0fdc78bcd3fc51dd4f1128cc39ab52b248defc9617b790c033db96d",
+        "tracePointCount": 47,
+        "annotations": "Numbered sections label the creator-recorded path for this guide. The source only names Start and Finish; it does not list pickups, intermediate names or floor heights.",
+        "sourceTimezone": "America/Los_Angeles",
+        "publishedAtUnixMillis": "1792798577771"
+      },
+      "variants": {
+        "b": {
+          "title": "Hidden King · Mid: Chinatown box circuit",
+          "description": "Source: 30s Chinatown Blue Boxes HK · Zappy. The line follows the published trace; it has not been mirrored or extended.",
+          "entryLane": "Blue / mid",
+          "endLane": "Blue / mid",
+          "trace": [
+            [
+              551.2462797619048,
+              563.7555803571429
+            ],
+            [
+              537.5279017857143,
+              576.4043898809524
+            ],
+            [
+              530.8779761904761,
+              575.6603422619048
+            ],
+            [
+              527.34375,
+              573.9862351190476
+            ],
+            [
+              523.9025297619048,
+              576.2183779761905
+            ],
+            [
+              522.0424107142857,
+              628.6737351190476
+            ],
+            [
+              523.9955357142857,
+              635.0446428571429
+            ],
+            [
+              524.6465773809524,
+              633.4635416666666
+            ],
+            [
+              523.2049851190476,
+              638.0208333333333
+            ],
+            [
+              525.4371279761905,
+              641.9735863095239
+            ],
+            [
+              530.6919642857143,
+              645.2752976190476
+            ],
+            [
+              552.2693452380952,
+              653.227306547619
+            ],
+            [
+              560.8723958333334,
+              661.7838541666666
+            ],
+            [
+              563.1045386904761,
+              667.3177083333333
+            ],
+            [
+              554.2224702380952,
+              675.8277529761905
+            ],
+            [
+              528.2738095238095,
+              690.9412202380952
+            ],
+            [
+              526.1346726190476,
+              694.428943452381
+            ],
+            [
+              525.5301339285714,
+              701.4043898809524
+            ],
+            [
+              526.9717261904761,
+              703.1715029761905
+            ],
+            [
+              564.4996279761905,
+              703.3575148809524
+            ],
+            [
+              577.8459821428571,
+              708.6588541666666
+            ],
+            [
+              579.0550595238095,
+              704.1015625
+            ],
+            [
+              591.5178571428571,
+              695.3125
+            ],
+            [
+              605.4222470238095,
+              682.1521577380952
+            ],
+            [
+              611.9326636904761,
+              669.4103422619048
+            ],
+            [
+              614.6763392857142,
+              660.9933035714286
+            ],
+            [
+              607.328869047619,
+              619.3266369047619
+            ],
+            [
+              606.3058035714286,
+              595.8891369047619
+            ],
+            [
+              608.305431547619,
+              585.844494047619
+            ],
+            [
+              605.7012648809524,
+              578.8690476190476
+            ],
+            [
+              600.3999255952381,
+              576.7299107142857
+            ],
+            [
+              590.3087797619048,
+              578.5435267857142
+            ],
+            [
+              581.3337053571429,
+              585.2864583333334
+            ],
+            [
+              566.2202380952381,
+              576.5904017857142
+            ],
+            [
+              561.2909226190476,
+              575.7533482142857
+            ],
+            [
+              566.6852678571429,
+              586.8675595238095
+            ],
+            [
+              579.4270833333334,
+              602.2600446428571
+            ],
+            [
+              587.4255952380952,
+              603.608630952381
+            ],
+            [
+              589.3322172619048,
+              602.9110863095239
+            ],
+            [
+              590.1692708333334,
+              600.8649553571429
+            ],
+            [
+              586.1700148809524,
+              595.9821428571429
+            ],
+            [
+              548.0375744047619,
+              594.633556547619
+            ],
+            [
+              532.0870535714286,
+              592.4479166666666
+            ],
+            [
+              515.8575148809524,
+              591.7503720238095
+            ],
+            [
+              500.3255208333333,
+              588.7276785714286
+            ],
+            [
+              494.28013392857144,
+              585.8909970238095
+            ],
+            [
+              485.7700892857143,
+              577.2879464285714
+            ]
+          ],
+          "stops": [
+            {
+              "id": "section-1",
+              "label": "Blue: secure the wave first",
+              "x": 551.2462797619048,
+              "y": 563.7555803571429,
+              "traceIndex": 0,
+              "kind": "wave",
+              "action": "Collect the available mid wave and begin from the recorded Blue-lane start.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-2",
+              "label": "First southbound box pocket",
+              "x": 522.0424107142857,
+              "y": 628.6737351190476,
+              "traceIndex": 5,
+              "kind": "loot",
+              "action": "Follow the southbound leg and collect boxes in the first pocket.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-3",
+              "label": "Lower block",
+              "x": 528.2738095238095,
+              "y": 690.9412202380952,
+              "traceIndex": 15,
+              "kind": "loot",
+              "action": "Continue around the lower block on the recorded line, checking whether mid needs you.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-4",
+              "label": "Far pocket",
+              "x": 577.8459821428571,
+              "y": 708.6588541666666,
+              "traceIndex": 20,
+              "kind": "loot",
+              "action": "Sweep the far pocket, then turn back along the source path.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-5",
+              "label": "Return through Chinatown",
+              "x": 600.3999255952381,
+              "y": 576.7299107142857,
+              "traceIndex": 30,
+              "kind": "loot",
+              "action": "Follow the return leg through Chinatown. Passing a camp does not add its clear to this box run.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-6",
+              "label": "Last inner pocket",
+              "x": 586.1700148809524,
+              "y": 595.9821428571429,
+              "traceIndex": 40,
+              "kind": "loot",
+              "action": "Finish the small inward detour for breakables before returning to Blue.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 180
+            },
+            {
+              "id": "section-7",
+              "label": "Return to Blue",
+              "x": 485.7700892857143,
+              "y": 577.2879464285714,
+              "traceIndex": 46,
+              "kind": "return",
+              "action": "Rejoin mid at the recorded endpoint. Collect the next available wave or respond to lane pressure.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Resume lane work. Repeat only after the loot has returned and another safe wave gap opens.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zappy-am-yellow-plaza",
+      "shortTitle": "Yellow · Plaza loop",
+      "title": "Yellow: Plaza box loop",
+      "shape": "return",
+      "purpose": "After a Yellow wave, collect boxes through the Plaza-side circuit and return to Yellow.",
+      "startSeconds": 300,
+      "recommendedSeconds": 300,
+      "startLabel": "5:00+ · check Plaza loot",
+      "windowLabel": "Use 5:00+ as the planning check for the full Plaza loop, after securing Yellow. Surface boxes open earlier; vault and tunnel availability must be checked locally.",
+      "timingBasis": "source-route",
+      "difficulty": "Published box run",
+      "risk": "Enemy pressure, missing loot and floor changes can make a practiced run unsuitable for the current wave gap.",
+      "timeBudget": "34.89 s in the source practice run. Check the Plaza entrance before committing; learning the floors and movement takes additional time.",
+      "summary": "Zappy’s Sunken Plaza Yellow recording follows the lower approach, a loop around the Plaza pocket and the upper return toward Yellow.",
+      "why": "Use the wave to create the farming window. The published route supplies the path; live lane pressure determines whether to complete it.",
+      "preflight": [
+        "Secure and push the available wave before leaving.",
+        "Check the exit, missing enemies and whether your partner can hold the lane.",
+        "Learn the source route in Explore NYC before relying on its practice timing."
+      ],
+      "abort": [
+        "The next wave reaches an unsafe position or your lane partner needs help.",
+        "The boxes are already cleared, the route costs too much health, or an enemy blocks the exit."
+      ],
+      "exitRule": "Finish on Yellow at the recorded endpoint. Reassess the wave before starting any other route.",
+      "nextOptions": [],
+      "rewardBasis": "unverified-inventory",
+      "evidence": {
+        "author": "Zappy",
+        "title": "35s Sunken Plaza Box Route Yellow AM",
+        "url": "https://hyperline.gg/movement/route/b6bb245651ed",
+        "playlistUrl": "https://hyperline.gg/movement/playlist/mvklxz8p",
+        "sourceDate": "2026-10-23",
+        "gameBuild": "6819",
+        "referenceSeconds": 34.890625,
+        "referenceNote": "Recorded practice result; it does not establish your match clear time or include a measured loot total. The public record does not list the practice restrictions.",
+        "routeNumber": "626",
+        "revision": "b6bb245651ede568750be90432c2412676b7afcfc0c08dbecd6473e30995d8bc",
+        "tracePointCount": 51,
+        "annotations": "Numbered sections label the creator-recorded path for this guide. The source only names Start and Finish; it does not list pickups, intermediate names or floor heights.",
+        "sourceTimezone": "America/Los_Angeles",
+        "publishedAtUnixMillis": "1792801734288"
+      },
+      "variants": {
+        "a": {
+          "title": "Archmother · Yellow: Plaza box loop",
+          "description": "Source: 35s Sunken Plaza Box Route Yellow AM · Zappy. The line follows the published trace; it has not been mirrored or extended.",
+          "entryLane": "Yellow",
+          "endLane": "Yellow",
+          "trace": [
+            [
+              190.01116071428572,
+              411.59784226190476
+            ],
+            [
+              228.56212797619048,
+              415.2715773809524
+            ],
+            [
+              230.84077380952385,
+              413.96949404761904
+            ],
+            [
+              210.65848214285717,
+              439.7786458333333
+            ],
+            [
+              209.9609375,
+              442.6153273809524
+            ],
+            [
+              211.03050595238096,
+              444.05691964285717
+            ],
+            [
+              216.84337797619048,
+              442.47581845238096
+            ],
+            [
+              229.91071428571428,
+              435.8258928571429
+            ],
+            [
+              250.97656250000003,
+              429.82700892857144
+            ],
+            [
+              258.0450148809524,
+              425.0837053571429
+            ],
+            [
+              263.06733630952385,
+              418.2012648809524
+            ],
+            [
+              265.48549107142856,
+              416.89918154761904
+            ],
+            [
+              266.92708333333337,
+              417.5502232142857
+            ],
+            [
+              266.6480654761905,
+              422.99107142857144
+            ],
+            [
+              268.3221726190476,
+              425.64174107142856
+            ],
+            [
+              274.8790922619048,
+              426.9903273809524
+            ],
+            [
+              303.85044642857144,
+              442.4293154761905
+            ],
+            [
+              314.1276041666667,
+              444.9869791666667
+            ],
+            [
+              326.1253720238095,
+              436.43043154761904
+            ],
+            [
+              342.16889880952385,
+              434.05877976190476
+            ],
+            [
+              350.6324404761905,
+              431.50111607142856
+            ],
+            [
+              352.1205357142857,
+              425.0837053571429
+            ],
+            [
+              351.7950148809524,
+              412.94642857142856
+            ],
+            [
+              355.93377976190476,
+              405.6919642857143
+            ],
+            [
+              362.39769345238096,
+              406.71502976190476
+            ],
+            [
+              383.51004464285717,
+              405.5059523809524
+            ],
+            [
+              386.7652529761905,
+              399.0420386904762
+            ],
+            [
+              397.2284226190476,
+              393.8337053571429
+            ],
+            [
+              401.5531994047619,
+              389.18340773809524
+            ],
+            [
+              403.78534226190476,
+              384.90513392857144
+            ],
+            [
+              403.83184523809524,
+              377.09263392857144
+            ],
+            [
+              401.69270833333337,
+              369.8381696428571
+            ],
+            [
+              395.41480654761904,
+              365.2808779761905
+            ],
+            [
+              390.3924851190476,
+              356.3988095238095
+            ],
+            [
+              384.30059523809524,
+              357.84040178571433
+            ],
+            [
+              374.90699404761904,
+              356.6778273809524
+            ],
+            [
+              367.60602678571433,
+              358.1194196428571
+            ],
+            [
+              360.81659226190476,
+              355.84077380952385
+            ],
+            [
+              350.02790178571433,
+              358.6774553571429
+            ],
+            [
+              345.61011904761904,
+              361.18861607142856
+            ],
+            [
+              343.19196428571433,
+              369.4196428571429
+            ],
+            [
+              336.82105654761904,
+              375.13950892857144
+            ],
+            [
+              332.35677083333337,
+              381.6034226190476
+            ],
+            [
+              326.7299107142857,
+              383.0450148809524
+            ],
+            [
+              309.29129464285717,
+              382.67299107142856
+            ],
+            [
+              304.2689732142857,
+              383.69605654761904
+            ],
+            [
+              298.96763392857144,
+              386.71875
+            ],
+            [
+              290.9691220238095,
+              394.2057291666667
+            ],
+            [
+              278.83184523809524,
+              400.53013392857144
+            ],
+            [
+              266.97358630952385,
+              393.9732142857143
+            ],
+            [
+              208.05431547619048,
+              399.6465773809524
+            ]
+          ],
+          "stops": [
+            {
+              "id": "section-1",
+              "label": "Yellow: secure the wave first",
+              "x": 190.01116071428572,
+              "y": 411.59784226190476,
+              "traceIndex": 0,
+              "kind": "wave",
+              "action": "Collect the available Yellow wave and begin at the published run’s start.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 300
+            },
+            {
+              "id": "section-2",
+              "label": "First box pocket",
+              "x": 211.03050595238096,
+              "y": 444.05691964285717,
+              "traceIndex": 5,
+              "kind": "loot",
+              "action": "Take the first small box detour along the recorded path.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 300
+            },
+            {
+              "id": "section-3",
+              "label": "Lower Plaza approach",
+              "x": 274.8790922619048,
+              "y": 426.9903273809524,
+              "traceIndex": 15,
+              "kind": "loot",
+              "action": "Continue along the lower approach and collect available breakables without adding a camp clear.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 300
+            },
+            {
+              "id": "section-4",
+              "label": "Far Plaza pocket",
+              "x": 383.51004464285717,
+              "y": 405.5059523809524,
+              "traceIndex": 25,
+              "kind": "loot",
+              "action": "Follow the far side of the Plaza loop. Check the source recording for the correct entrance and floor.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 300
+            },
+            {
+              "id": "section-5",
+              "label": "Upper turn",
+              "x": 374.90699404761904,
+              "y": 356.6778273809524,
+              "traceIndex": 35,
+              "kind": "loot",
+              "action": "Continue around the upper turn on the recorded line. Nearby Sinners are not included in this box route.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 300
+            },
+            {
+              "id": "section-6",
+              "label": "Return toward Yellow",
+              "x": 304.2689732142857,
+              "y": 383.69605654761904,
+              "traceIndex": 45,
+              "kind": "loot",
+              "action": "Follow the upper return toward Yellow, collecting remaining boxes on that line.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Continue along the source line to the next numbered section.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": 300
+            },
+            {
+              "id": "section-7",
+              "label": "Return to Yellow",
+              "x": 208.05431547619048,
+              "y": 399.6465773809524,
+              "traceIndex": 50,
+              "kind": "return",
+              "action": "Rejoin Yellow at the recording’s finish and check the next wave. This run does not continue into mid.",
+              "approach": "Follow the recorded path between markers. Section names are explanatory annotations; the public trace has no floor heights.",
+              "watch": "The path does not report which boxes are still available. Check the next wave and enemy positions.",
+              "skip": "Return to lane if a wave or your partner needs you, the loot is gone, or enemies can cut off the exit.",
+              "exit": "Resume lane work. Repeat only after the loot has returned and another safe wave gap opens.",
+              "countReward": false,
+              "countWave": false,
+              "optional": false,
+              "firstSeconds": null
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
